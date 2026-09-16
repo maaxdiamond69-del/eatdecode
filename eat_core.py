@@ -128,7 +128,7 @@ def get_eat_details(access_token: str) -> dict:
     encrypted = encrypt_api(payload.hex())
     headers = {
         "X-Unity-Version": "2018.4.11f1",
-        "ReleaseVersion": "OB54",
+        "ReleaseVersion": "ob55",
         "Content-Type": "application/x-www-form-urlencoded",
         "X-GA": "v1 1",
         "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 7.1.2; ASUS_Z01QD Build/QKQ1.190825.002)",
