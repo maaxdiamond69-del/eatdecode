@@ -137,7 +137,7 @@ def get_eat_details(access_token: str) -> dict:
         "Accept-Encoding": "gzip",
     }
     res3 = requests.post(
-        "https://loginbp.ggblueshark.com/MajorLogin",
+        "https://loginbp.ppmainecoonghj.com/MajorLogin",
         headers=headers,
         data=bytes.fromhex(encrypted),
         verify=False,
